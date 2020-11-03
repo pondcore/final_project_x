@@ -6,6 +6,7 @@ import time
 
 from emokit.emotiv import Emotiv
 
+
 if __name__ == "__main__":
     with Emotiv(display_output=True, verbose=False) as headset:
         while True:
